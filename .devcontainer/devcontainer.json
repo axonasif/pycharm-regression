@@ -10,5 +10,6 @@
 		"PATH": "/home/vscode/envs/app/bin:/opt/conda/bin:/opt/conda/condabin:/home/vscode/.local/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin",
 		"PYCHARM_PYTHON_PATH": "/home/vscode/envs/app/bin/python"
 	},
-	"onCreateCommand": "/workspace/pycharm-regression/.ona/setup-workspace.sh"
+	"onCreateCommand": "/workspace/pycharm-regression/.ona/setup-workspace.sh",
+	"postStartCommand": "/workspace/pycharm-regression/.ona/seed-pycharm-sdk.sh"
 }

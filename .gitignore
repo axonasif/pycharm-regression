@@ -1,4 +1,10 @@
-.idea/
 __pycache__/
 *.pyc
 .venv/
+
+# .idea: we intentionally commit misc.xml + modules.xml + <project>.iml
+# as part of the PYCHARM_PYTHON_PATH workaround. Ignore everything else.
+.idea/*
+!.idea/misc.xml
+!.idea/modules.xml
+!.idea/pycharm-regression.iml
