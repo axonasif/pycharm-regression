@@ -11,5 +11,5 @@
 		"PYCHARM_PYTHON_PATH": "/home/vscode/envs/app/bin/python"
 	},
 	"onCreateCommand": "/workspace/pycharm-regression/.ona/setup-workspace.sh",
-	"postStartCommand": "/workspace/pycharm-regression/.ona/seed-pycharm-sdk.sh"
+//	"postStartCommand": "/workspace/pycharm-regression/.ona/seed-pycharm-sdk.sh"
 }
